@@ -14,7 +14,6 @@
 	"engines": {
 		"node": ">=8.0.0 || >=10.0.0"
 	},
-	"main": "./lib/main.js",
 	"typings": "./lib/main.d.ts",
 	"scripts": {
 		"prepublishOnly": "npm run clean && npm run compile && npm test",
