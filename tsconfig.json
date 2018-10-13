@@ -1,0 +1,17 @@
+{
+	"extends": "../tsconfig.base.json",
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"sourceMap": false,
+		"declaration": true,
+		"stripInternal": true,
+		"lib": [ "es2016" ],
+		"rootDir": "src",
+		"outDir": "lib"
+	},
+	"include": [
+		"src"
+	]
+}
